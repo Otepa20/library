@@ -41,4 +41,9 @@ public class UserBook {
     public void setBookId(int bookId) {
         this.bookId = bookId;
     }
+
+    @Override
+    public String toString() {
+        return id + "," + userId + "," + bookId;
+    }
 }
